@@ -1,0 +1,265 @@
+/* general */
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Anton', sans-serif;
+}
+
+body {
+    background-color: rgb(41, 38, 38);
+}
+
+/* header */
+header {
+    background-color: rgb(93, 207, 64); 
+    width: 100%;
+    top: 0;
+    display: table;
+}
+
+/* navbar */
+
+.navbar {
+    width: 100%;
+    margin: 0%;   
+}
+
+img {
+    width: 5%;
+    float: left;
+    padding: 8px;
+    margin: 0%;
+    margin-left: 2%;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 10px;
+    padding: 25px 30px;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.banner {
+    width: 100%;
+    height: 650px;
+    margin-bottom: 40px;
+    background-image: url(/assets/banner.jpg);
+    background-attachment: scroll;
+    background-position: 0px 0px;
+    background-size: cover;
+    display: flex;
+}
+
+.banner .text h1 {
+    width: 100%;
+    color: white;
+    margin-left: 36%;
+    margin-top: 100px;
+    display: block;
+    font-size: 60px;
+    text-align: center;
+}
+
+.banner .text p {
+    width: 100%;
+    color: white;
+    margin-left: 300px;
+    margin-top: 100px;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30em;
+
+}
+
+.imagecompu {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 18em;
+    height: 18em;
+    padding: 1%;
+    margin: 1%;
+    border-width: 1px;
+    border-style: solid;
+    border: 1px solid springgreen;
+    border-radius: 23px;
+    -webkit-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -ms-border-radius: 23px;
+    -o-border-radius: 23px;
+    
+}
+
+.imageP {
+    display: flex;
+    width: 65%;
+    height: 65%;
+
+}
+
+p {
+    color: white;
+}
+h3 {
+    color: white;
+}
+
+button {
+    border: 1px solid  rgb(93, 207, 64);
+    padding: 10px;
+    background-color:  rgb(93, 207, 64);
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+footer {
+    background-color:rgb(93, 207, 64);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 30px;
+}
+.socials a {
+    text-decoration: none;
+}
+.socials a i{
+    font-size: 1.1rem;
+}
+
+.footer-buttom{
+    background: rgb(28, 179, 28);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-buttom p{
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+/* Login Screen */
+
+.registro{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(41, 38, 38);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.registro-content{
+    display: flex;
+    height: 550px;
+    width: 300px;
+    border: 1px solid var(--darker-color);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    opacity: 0.8;   
+}
+
+.form-registro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: var(--white-color);
+}
+
+.form-registro h2{
+    font-size: 1.5rem;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+.celda{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid var(--darker-color);
+    outline: none;
+    border-radius: 20px;
+}
+
+.lg-btn{
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.form-registro a{
+    text-decoration: none;
+    color: var(--darker-color);
+    margin-top: 10px;
+}
+
+@media(max-width: 700px){
+    .banner .text h1 {
+        margin-left: -4%;
+        margin-top: 100px;
+    }
+    .banner .text p{
+        margin-left: -17px;
+        font-size: 16px;
+    }
+    nav ul li{
+        margin-left: 2px;
+        padding: 5px 30px;
+    }
+}

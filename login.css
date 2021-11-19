@@ -1,0 +1,58 @@
+/* Login Screen */
+
+body {
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(41, 38, 38);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: 'Anton', sans-serif;;
+}
+
+.registro-content{
+    background: rgb(93, 207, 64);
+    display: flex;
+    height: 400px;
+    width: 300px;
+    border: 1px solid var(--darker-color);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    opacity: 0.8;   
+}
+
+.form-registro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: var(--white-color);
+}
+
+.form-registro h2{
+    font-size: 1.5rem;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+.celda{
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid var(--darker-color);
+    outline: none;
+    border-radius: 20px;
+}
+
+.lg-btn{
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.form-registro a{
+    text-decoration: none;
+    color: var(--darker-color);
+    margin-top: 10px;
+}
